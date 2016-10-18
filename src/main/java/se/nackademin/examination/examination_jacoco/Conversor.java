@@ -1,9 +1,9 @@
 package se.nackademin.examination.examination_jacoco;
 
 import java.util.ArrayList;
-
+//hej
 public class Conversor {
-	//Hej hej hej
+	
 	private ArrayList<String> nameConverterArray = new ArrayList<String>();
 	private ArrayList<String> genderConverterArray = new ArrayList<String>();
 	private ArrayList<String> ageConverterArray = new ArrayList<String>();
