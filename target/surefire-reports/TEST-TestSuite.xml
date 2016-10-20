@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.031" tests="39" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Martin\Desktop\Nackademin\examination-jacoco"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="SE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Martin\Desktop\Nackademin\examination-jacoco"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Martin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Martin\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4504486092845099253.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Users\Martin\AppData\Local\Microsoft\WindowsApps;;C:\Users\Martin\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Martin"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Martin"/>
+    <property name="java.class.path" value="C:\Users\Martin\Desktop\Nackademin\apache-maven-3.3.9-bin\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="sv"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Martin\Desktop\Nackademin\apache-maven-3.3.9-bin\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testMainMethod on testMainMethod(se.nackademin.examination.examination_jacoco.MainTest)" classname="se.nackademin.examination.examination_jacoco.MainTest" time="0.004"/>
+  <testcase name="testConversor on testConversor(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0.003"/>
+  <testcase name="testConversor2 on testConversor2(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversor3 on testConversor3(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testConversor4 on testConversor4(se.nackademin.examination.examination_jacoco.ConversorTest)" classname="se.nackademin.examination.examination_jacoco.ConversorTest" time="0"/>
+  <testcase name="testMethodCity1 on testMethodCity1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.005"/>
+  <testcase name="testMethodCity2 on testMethodCity2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.004"/>
+  <testcase name="testMethodCity3 on testMethodCity3(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodCity4 on testMethodCity4(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodCity5 on testMethodCity5(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodCity6 on testMethodCity6(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodCity7 on testMethodCity7(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodCity8 on testMethodCity8(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodCity9 on testMethodCity9(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodName1 on testMethodName1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodName2 on testMethodName2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.002"/>
+  <testcase name="testMethodName3 on testMethodName3(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodAge1 on testMethodAge1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodAge2 on testMethodAge2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testrun on testrun(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.004"/>
+  <testcase name="testrunGame on testrunGame(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.006"/>
+  <testcase name="testMethodGender1 on testMethodGender1(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodGender2 on testMethodGender2(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodGender3 on testMethodGender3(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testBuildFinalString on testBuildFinalString(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0.001"/>
+  <testcase name="testMethodCity10 on testMethodCity10(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="testMethodCity11 on testMethodCity11(se.nackademin.examination.examination_jacoco.GameTest)" classname="se.nackademin.examination.examination_jacoco.GameTest" time="0"/>
+  <testcase name="test1 on test1(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test2 on test2(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test3 on test3(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test4 on test4(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test5 on test5(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test6 on test6(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test7 on test7(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="test8 on test8(se.nackademin.examination.examination_jacoco.DataAnalysisTest)" classname="se.nackademin.examination.examination_jacoco.DataAnalysisTest" time="0"/>
+  <testcase name="testAgeGettersAndSettersMethods2 on testAgeGettersAndSettersMethods2(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
+  <testcase name="testAgeGettersAndSettersMethods3 on testAgeGettersAndSettersMethods3(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
+  <testcase name="testAgeGettersAndSettersMethods4 on testAgeGettersAndSettersMethods4(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0"/>
+  <testcase name="testAgeGettersAndSettersMethods on testAgeGettersAndSettersMethods(se.nackademin.examination.examination_jacoco.ResultsFromInputsTest)" classname="se.nackademin.examination.examination_jacoco.ResultsFromInputsTest" time="0.001"/>
+</testsuite>
