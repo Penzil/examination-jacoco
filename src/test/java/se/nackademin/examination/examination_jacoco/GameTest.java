@@ -2,6 +2,8 @@ package se.nackademin.examination.examination_jacoco;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.ArrayList;
+
 import org.junit.Test;
 
 public class GameTest {
@@ -146,10 +148,27 @@ public class GameTest {
 		game.buildFinalString("Martin", "Palman", resultfrominputs, converser);
 	}
 	@Test
-	public void testRunGame(){
+	public void testrunGame(){
 		Game game = new Game();
+		Conversor converser = new Conversor();
+		ResultFromInputs resultfrominputs = new ResultFromInputs();
+		game.runGame("Game","Martin", "Palman", 'M',22, "Enebyberg");
 	}
+	
+	@Test
+	public void testrun(){
+		Game game = new Game();
+		ArrayList<String> arrayList = new ArrayList<String>();
+		arrayList.add("Game");
+		arrayList.add("Martin");
+		arrayList.add("Palman");
+		arrayList.add("M");
+		arrayList.add("22");
+		arrayList.add("Enebyberg");
 		
+		game.run(arrayList);
+	}
+
 	
 	
 
